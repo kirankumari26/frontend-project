@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100;
+    height: 90vh;
+    background:url(background.jpeg);
+    background-size: cover;
+    background-position:center;
+    padding-bottom: 50px;
+}
+nav{
+    width: 100;
+    height: 80;
+    background: white;
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+.text{
+  
+    color: black;
+    width: 100px;
+    align-content: center; 
+    display: inline;
+}
+.text h1{
+    color: black;
+    width: 100px;
+    display: inline;
+    text-align: center;
+    font-size: 3em;
+    padding: 0px 400px;
+  
+}
+.text a{
+    display: flex;
+    text-align:center;
+    font-size:2em;
+    padding: 0px 500px;
+}
+.text p{
+    display: inline;
+    text-align:center;
+    font-size:2em;
+    color:black;
+    padding: 0px 300px;
+    
+    
+
+}
+.name{
+    color: crimson;
+   font-family:Arial;
+   font-size: 2em;
+}
+.menu a{
+    color:black;
+    padding: 10px 20px;
+    font-family: Arial;
+    font-size: 20px;
+}
+.menu a:home{
+    color: forestgreen;
+}
+.menu a:hover{
+    color: forestgreen;
+}
+.States{
+    padding: 100px;
+
+}
+.location ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: Arial;
+    padding: 10px 20px;
+    text-align: center;  
+}
+.location ul li:hover{
+color: brown;
+background: white;
+border-radius: 8px;
+        
+}
+li.active{
+    color: brown;
+background: white;
+border-radius: 8px;
+
+}
+.location-item{
+    width:100;
+
+}
+.location-item .item{
+    width:200px;
+    height:200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+
+}
+.location-item .item img{
+    width:150px;
+    height:150px;
+    border-radius: 8px;
+}
+.member{
+    display: inline;
+    width:100px;
+    padding:20px 100px;
+    font-family: arial;
+}
+.member-info{
+    text-align: center;
+    background-color: aliceblue;
+}
+.member-info h1{
+    font-size: 3em;
+    color: darkcyan;
+    padding: 20px;
+}
+.member-info p{
+    font-size: 1.5em;
+    color:crimson;
+    padding: 20px;
+}
+.member-info h3{
+    font-size: 2em;
+    color: darkcyan;
+    padding:30px;
+}
+footer{
+    width:auto;
+    height: 50vh;
+    background-size: cover;
+    background-position:fixed;
+    background-color: rgb(187, 178, 178);
+}
+.feedback{
+    color: white;
+    font-size: 1.5em;
+    width: 100px;
+    display:inline;
+    align-items: center;
+    padding: 30px;
+}
+.feedback h4{
+    color: white;
+    padding:20px;
+    align-items: center;
+}
+.queries{
+    color: white;
+    display:inline-table;
+    padding: 20px;
+
+}
